@@ -15,6 +15,7 @@ import { StorageService } from '../services/storage.service';
 import { ClienteService } from '../services/cliente.service';
 import { ProdutoService } from '../services/domain/produtos.service';
 import { CartService } from '../services/domain/cart.service';
+import { ImageUtilService } from '../services/image-util.service';
 
 
 
@@ -42,7 +43,8 @@ import { CartService } from '../services/domain/cart.service';
     StorageService,
     ClienteService,
     ProdutoService,
-    CartService
+    CartService,
+    ImageUtilService
     
   ]
 })
